@@ -1,0 +1,11 @@
+div {
+    width: 300px;
+    height: 600px;
+}
+
+div div {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid;
+    float: left;
+}
