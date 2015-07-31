@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="{{ STATIC_URL }}js/index.js"> </script>
+</head>
+<body>
+
+<h1> Beat Computer</h1>
+<h2> Current Standings </h2>
+<h2> Total number of games: {{ total_number_of_games }} </h2>
+<h2> Total number of losses: {{ total_losses }}</h2>
+<h2> Total number of wins: {{ total_wins }}</h2>
+<h2> Total number of draws: {{ total_draws }} </h2>
+
+
+<!-- Room FOR IMPROVEMENT: users can simply login inside the system before playing.
+Due to time constraints I adding this feature if Littlebits want me to.
+<p id="error">  </p>
+
+
+<form id="login-form" name="login" method="POST" action="/account/login">
+    <input type="text" name="username" />
+    <input type="submit" />
+</form> -->
+
+<a href="/tictactoe/play"> Let's play</a>
+</body>
+</html>
