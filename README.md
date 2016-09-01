@@ -21,8 +21,5 @@ Core Requirements
 System Architecture
 -----
 
-The app uses regular MVC patter (model, view controller). Python and Javascript are the main languages for this app.
+The app uses regular MVC pattern (model, view controller). Python and Javascript are the main languages for this app.
 Mysql DB is for server.
-
-Two apps are written account and tictactoe, this is only for the future if someone wants to expand the app the
-design will let you without any problems and it will keep it simple and modular.
